@@ -1,8 +1,10 @@
 body {
   margin: 0;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background: #121212;
 }
 
-#imagePrincipal {
-  position: absolute; 
-}

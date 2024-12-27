@@ -1,0 +1,731 @@
+[
+    {
+        "alt": "Aung San Suu Kyi",
+      "coords": "472,599,529,661",
+      "href": "http://en.wikipedia.org/wiki/Aung_San_Suu_Kyi",
+      "shape": "RECT",
+      "title": "Aung San Suu Kyi"
+    },
+    {
+      "alt": "Moses",
+      "coords": "132,694,212,798",
+      "href": "http://en.wikipedia.org/wiki/Moses",
+      "shape": "RECT",
+      "title": "Moses"
+    },
+    {
+      "alt": "John Locke",
+      "coords": "391,757,397,684,413,657,438,659,442,686,444,710,438,714,431,719,428,754,419,765,410,757",
+      "href": "http://en.wikipedia.org/wiki/John_locke",
+      "shape": "POLY",
+      "title": "John Locke"
+    },
+    {
+      "alt": "Code of Hammurabi",
+      "coords": "274,829,289,834,290,869,342,868,336,837,330,815,315,800,275,806",
+      "href": "http://en.wikipedia.org/wiki/Code_of_Hammurabi",
+      "shape": "POLY",
+      "title": "Code of Hammurabi"
+    },
+    {
+      "alt": "Hammurabi",
+      "coords": "455,745,451,755,442,764,467,816,484,810,510,769,514,750,517,731,503,707,491,672,455,667,453,695,450,713,454,729",
+      "href": "http://en.wikipedia.org/wiki/Hammurabi",
+      "shape": "POLY",
+      "title": "Hammurabi"
+    },
+    {
+      "alt": "Raoul Wallenberg",
+      "coords": "551,640,575,630,584,607,588,594,611,578,638,606,624,633,654,673,621,677,590,651,560,681",
+      "href": "http://en.wikipedia.org/wiki/Raoul_Wallenberg",
+      "shape": "POLY",
+      "title": "Raoul Wallenberg"
+    },
+    {
+      "alt": "Oskar Schindler",
+      "coords": "652,618,650,594,666,565,695,572,704,595,698,627,701,636,721,668,716,677,713,701,706,710,696,712,688,709,686,707,683,704,678,700,672,696,670,666,655,663,637,627",
+      "href": "http://en.wikipedia.org/wiki/Oskar_Schindler",
+      "shape": "POLY",
+      "title": "Oskar Schindler"
+    },
+    {
+      "alt": "George Washington",
+      "coords": "728,663,744,649,754,645,766,645,772,643,780,637,780,638,794,635,782,598,773,593,769,572,758,554,735,556,728,576,728,591,734,599,728,626,723,652,723,660",
+      "href": "http://en.wikipedia.org/wiki/George_Washington",
+      "shape": "POLY",
+      "title": "George Washington"
+    },
+    {
+      "alt": "Francis of Assisi",
+      "coords": "587,665,573,676,571,688,558,698,551,727,530,746,510,774,544,790,561,801,578,811,586,804,600,786,610,773,621,756,643,748,624,716,618,702,601,689,604,670",
+      "href": "http://en.wikipedia.org/wiki/St._Francis_of_Assisi",
+      "shape": "POLY",
+      "title": "Francis of Assisi"
+    },
+    {
+      "alt": "Irena Sendler",
+      "coords": "772,659,763,664,755,672,744,689,737,731,740,750,758,760,765,769,759,782,770,793,774,786,775,778,779,764,791,737,830,730,804,707,813,690,817,672,793,660",
+      "href": "http://en.wikipedia.org/wiki/Irena_Sendler",
+      "shape": "POLY",
+      "title": "Irena Sendler"
+    },
+    {
+        "alt": "Bill Gates",
+        "coords": "829,565,824,562,820,571,815,622,813,642,831,713,834,711,839,701,850,700,865,707,887,643,889,625,869,614,867,592,869,583,867,576,866,573,850,562,839,561",
+        "href": "http://en.wikipedia.org/wiki/Bill_Gates",
+        "shape": "POLY",
+        "title": "Bill Gates"
+    },
+    {
+        "alt": "Plato",
+        "coords": "608,835,617,809,627,800,635,796,631,784,638,771,650,767,662,775,663,789,659,797,667,801,678,804,684,819,680,844,675,856,682,887,680,912,667,908,677,896,668,885,650,881,644,889,644,897,622,899,615,883,621,843",
+        "href": "http://en.wikipedia.org/wiki/Plato",
+        "shape": "POLY",
+        "title": "Plato"
+    },
+    {
+        "alt": "Jesus Christ",
+        "coords": "1022,1188,1045,1156,1044,1148,1041,1123,1060,1106,1082,1102,1104,1155,1108,1173,1142,1193,1145,1248,1131,1279,1117,1322,1090,1374,1077,1370,1059,1367,1047,1370,1030,1332,1022,1298,1020,1257",
+        "href": "http://en.wikipedia.org/wiki/Jesus_christ",
+        "shape": "POLY",
+        "title": "Jesus Christ"
+    },
+    {
+        "alt": "Mother Teresa",
+        "coords": "740,1260,740,1246,750,1229,763,1169,783,1157,809,1178,794,1229,810,1240,833,1327,820,1343,820,1381,797,1387,781,1382,774,1364,751,1350,743,1327,743,1307,740,1279",
+        "href": "http://en.wikipedia.org/wiki/Mother_Teresa",
+        "shape": "POLY",
+        "title": "Mother Teresa"
+    },
+    {
+        "alt": "`Abdu'l-Bahá",
+        "coords": "1122,1345,1144,1285,1154,1245,1179,1203,1176,1191,1171,1168,1189,1146,1211,1145,1228,1177,1230,1190,1227,1212,1267,1230,1279,1257,1287,1276,1286,1287,1291,1302,1199,1292,1191,1300",
+        "href": "http://en.wikipedia.org/wiki/%60Abdu%27l-Bah%C3%A1",
+        "shape": "POLY",
+        "title": "`Abdu'l-Bahá"
+    },
+    {
+        "alt": "Harriet Tubman",
+        "coords": "1220,1403,1222,1384,1229,1374,1229,1351,1231,1330,1231,1312,1246,1303,1261,1310,1282,1319,1289,1345,1302,1369,1293,1404",
+        "href": "http://en.wikipedia.org/wiki/Harriet_Tubman",
+        "shape": "POLY",
+        "title": "Harriet Tubman"
+    },
+    {
+        "alt": "Lao Tzu",
+        "coords": "308,960,315,935,316,912,314,888,328,877,360,886,365,909,368,920,372,935,420,975,430,1073,385,1054,378,1010,363,1000,322,1001,306,1021,275,1024,287,975",
+        "href": "http://en.wikipedia.org/wiki/Lao_tzu",
+        "shape": "POLY",
+        "title": "Lao Tzu"
+    },
+    {
+        "alt": "Voltaire",
+        "coords": "432,978,463,954,462,896,473,876,492,876,511,896,523,914,526,934,532,1036,488,1094,454,1060,438,1037",
+        "href": "http://en.wikipedia.org/wiki/Voltaire",
+        "shape": "POLY",
+        "title": "Voltaire"
+    },
+    {
+        "alt": "Cai Lun",
+        "coords": "525,1064,551,1042,541,1013,537,981,563,938,591,953,600,973,598,999,624,1021,630,1060,629,1099,610,1130,594,1218,601,1310,513,1305,489,1123",
+        "href": "http://en.wikipedia.org/wiki/Cai_Lun",
+        "shape": "POLY",
+        "title": "Cai Lun"
+    },
+    {
+        "alt": "Johannes Gutenberg",
+        "coords": "617,1249,604,1207,611,1153,627,1108,661,1082,658,1063,659,1030,674,1013,712,1034,711,1081,711,1090,748,1115,757,1132,755,1166,744,1203,735,1243,736,1266,607,1339",
+        "href": "http://en.wikipedia.org/wiki/Johannes_Gutenberg",
+        "shape": "POLY",
+        "title": "Johannes Gutenberg"
+    },
+    {
+        "alt": "Chief Joseph",
+        "coords": "779,786,779,769,790,748,805,738,838,742,855,765,853,802,865,819,866,849,867,875,837,877,833,875,801,864,801,813",
+        "href": "http://en.wikipedia.org/wiki/Chief_Joseph",
+        "shape": "POLY",
+        "title": "Chief Joseph"
+    },
+    {
+        "alt": "Martin Luther King, Jr.",
+        "coords": "310,1331,316,1293,351,1252,362,1197,403,1192,404,1233,400,1253,415,1257,515,1528,333,1546,317,1396",
+        "href": "http://en.wikipedia.org/wiki/Martin_Luther_King,_Jr.",
+        "shape": "POLY",
+        "title": "Martin Luther King, Jr."
+    },
+    {
+        "alt": "Constantine the Great",
+        "coords": "288,1091,329,1069,331,1011,372,1014,369,1071,414,1096,457,1181,425,1184,373,1179,302,1248,265,1196",
+        "href": "http://en.wikipedia.org/wiki/Constantine_the_Great",
+        "shape": "POLY",
+        "title": "Constantine the Great"
+    },
+    {
+        "alt": "Mohandas Gandhi",
+        "coords": "1120,1109,1134,1070,1148,1037,1153,1014,1173,1000,1182,997,1203,1008,1205,1027,1207,1047,1243,1089,1257,1142,1107,1142",
+        "href": "http://en.wikipedia.org/wiki/Mohandas_Karamchand_Gandhi",
+        "shape": "POLY",
+        "title": "Mohandas Gandhi"
+    },
+    {
+        "alt": "Joseph Smith",
+        "coords": "679,716,737,841",
+        "href": "http://en.wikipedia.org/wiki/Joseph_Smith",
+        "shape": "RECT",
+        "title": "Joseph Smith"
+    },
+    {
+        "alt": "Dalai Lama",
+        "coords": "617,1364,651,1411,649,1477,613,1583,681,1595,811,1589,827,1530,825,1466,755,1371,713,1355,692,1354,670,1320,631,1328",
+        "href": "http://en.wikipedia.org/wiki/Dalai_lama",
+        "shape": "POLY",
+        "title": "Dalai Lama"
+    },
+    {
+        "alt": "Nelson Mandela",
+        "coords": "741,810,798,1021",
+        "href": "http://en.wikipedia.org/wiki/Nelson_Mandela",
+        "shape": "RECT",
+        "title": "Nelson Mandela"
+    },
+    {
+        "alt": "Hippocrates",
+        "coords": "880,831,942,1390",
+        "href": "http://en.wikipedia.org/wiki/Hypocrates",
+        "shape": "RECT",
+        "title": "Hippocrates"
+    },
+    {
+        "alt": "Nicolaus Copernicus",
+        "coords": "987,817,1048,1114",
+        "href": "http://en.wikipedia.org/wiki/Nicolaus_Copernicus",
+        "shape": "RECT",
+        "title": "Nicolaus Copernicus"
+    },
+    {
+        "alt": "Jonas Salk",
+        "coords": "1058,908,1136,1054",
+        "href": "http://en.wikipedia.org/wiki/Jonas_Salk",
+        "shape": "RECT",
+        "title": "Jonas Salk"
+    },
+    {
+        "alt": "Alexander Fleming",
+        "coords": "1204,927,1204,874,1228,862,1255,872,1258,920,1289,950,1294,994,1249,1025,1175,950",
+        "href": "http://en.wikipedia.org/wiki/Alexander_Fleming",
+        "shape": "POLY",
+        "title": "Alexander Fleming"
+    },
+    {
+        "alt": "Joseph Lister",
+        "coords": "1158,786,1200,921",
+        "href": "http://en.wikipedia.org/wiki/Joseph_Lister,_1st_Baron_Lister",
+        "shape": "RECT",
+        "title": "Joseph Lister"
+    },      
+    {
+        "alt": "Louis Pasteur",
+        "coords": "1287,820,1348,945",
+        "href": "http://en.wikipedia.org/wiki/Louis_Pasteur",
+        "shape": "RECT",
+        "title": "Louis Pasteur"
+    },
+    {
+        "alt": "Benjamin Franklin",
+        "coords": "952,662,1039,750",
+        "href": "http://en.wikipedia.org/wiki/Benjamin_Franklin",
+        "shape": "RECT",
+        "title": "Benjamin Franklin"
+    },
+    {
+        "alt": "Isaac Newton",
+        "coords": "1078,709,1139,901",
+        "href": "http://en.wikipedia.org/wiki/Isaac_Newton",
+        "shape": "RECT",
+        "title": "Isaac Newton"
+    },
+    {
+        "alt": "Barack Obama",
+        "coords": "1325,1037,1372,1297",
+        "href": "http://reason.com/archives/2012/05/31/obamas-secret-kill-list",
+        "shape": "RECT",
+        "title": "Barack Obama"
+    },
+    {
+        "alt": "George W. Bush",
+        "coords": "1462,1052,1574,1244",
+        "href": "http://en.wikipedia.org/wiki/George_W._Bush",
+        "shape": "RECT",
+        "title": "George W. Bush"
+    },
+    {
+        "alt": "Most-wanted Iraqi playing cards",
+        "coords": "1423,1254,1572,1323",
+        "href": "http://en.wikipedia.org/wiki/Most-wanted_Iraqi_playing_cards",
+        "shape": "RECT",
+        "title": "Most-wanted Iraqi playing cards"
+    },
+    {
+        "alt": "Francisco Pizarro",
+        "coords": "1327,967,1428,1033",
+        "href": "http://en.wikipedia.org/wiki/Pizarro",
+        "shape": "RECT",
+        "title": "Francisco Pizarro"
+    },
+    {
+        "alt": "Amado Carrillo Fuentes",
+        "coords": "1496,963,1567,1035",
+        "href": "http://en.wikipedia.org/wiki/Amado_Carrillo_Fuentes",
+        "shape": "RECT",
+        "title": "Amado Carrillo Fuentes"
+    },
+    {
+        "alt": "Talaat Pasha",
+        "coords": "1670,916,1756,1050",
+        "href": "http://en.wikipedia.org/wiki/Talaat_Pasha",
+        "shape": "RECT",
+        "title": "Talaat Pasha"
+    },
+    {
+        "alt": "Harry S. Truman",
+        "coords": "1855,959,1910,1035",
+        "href": "http://en.wikipedia.org/wiki/Harry_S._Truman",
+        "shape": "RECT",
+        "title": "Harry S. Truman"
+    },
+    {
+        "alt": "Henry Kissinger",
+        "coords": "2027,975,2130,1054",
+        "href": "http://en.wikipedia.org/wiki/Kissinger",
+        "shape": "RECT",
+        "title": "Henry Kissinger"
+    },
+    {
+        "alt": "Tomás de Torquemada",
+        "coords": "1596,1056,1667,1540",
+        "href": "http://en.wikipedia.org/wiki/Tom%C3%A1s_de_Torquemada",
+        "shape": "RECT",
+        "title": "Tomás de Torquemada"
+    },
+    {
+        "alt": "Gilles de Rais",
+        "coords": "1720,1156,1783,1514",
+        "href": "http://en.wikipedia.org/wiki/Gilles_de_Rais",
+        "shape": "RECT",
+        "title": "Gilles de Rais"
+    },
+    {
+        "alt": "Ilse Koch",
+        "coords": "1580,987,1644,1055",
+        "href": "http://en.wikipedia.org/wiki/Ilse_Koch",
+        "shape": "RECT",
+        "title": "Ilse Koch"
+    },
+    {
+        "alt": "Josef Mengele",
+        "coords": "2099,1087,2190,1613",
+        "href": "http://en.wikipedia.org/wiki/Mengele",
+        "shape": "RECT",
+        "title": "Josef Mengele"
+    },
+    {
+        "alt": "Shirō Ishii",
+        "coords": "1912,1092,1957,1281",
+        "href": "http://en.wikipedia.org/wiki/Shiro_Ishii",
+        "shape": "RECT",
+        "title": "Shirō Ishii"
+    },
+    {
+        "alt": "Marquis de Sade",
+        "coords": "1807,1080,1880,1085,1887,1276,1799,1265,1789,1153,1768,1129",
+        "href": "http://en.wikipedia.org/wiki/Marquis_de_sade",
+        "shape": "POLY",
+        "title": "Marquis de Sade"
+    },
+    {
+        "alt": "Genghis Khan",
+        "coords": "2208,1051,2229,1010,2228,990,2236,971,2260,953,2290,971,2301,992,2304,1012,2313,1040,2337,1098,2314,1099,2289,1107,2266,1133,2200,1136,2191,1068",
+        "href": "http://en.wikipedia.org/wiki/Ghengis_Khan",
+        "shape": "POLY",
+        "title": "Genghis Khan"
+    },
+    {
+        "alt": "War is Peace - 1984",
+        "coords": "1962,1285,2050,1295,2097,1424,2028,1438",
+        "href": "http://en.wikiquote.org/wiki/Nineteen_Eighty-Four",
+        "shape": "RECT",
+        "title": "War is Peace - 1984"
+    },
+    {
+        "alt": "Augusto Pinochet",
+        "coords": "2284,1119,2366,1506",
+        "href": "http://en.wikipedia.org/wiki/Augusto_Pinochet",
+        "shape": "RECT",
+        "title": "Augusto Pinochet"
+    },
+    {
+        "alt": "Hirohito",
+        "coords": "2391,971,2525,1228",
+        "href": "http://en.wikipedia.org/wiki/Hirohito",
+        "shape": "RECT",
+        "title": "Hirohito"
+    },
+    {
+        "alt": "Leopold II of Belgium",
+        "coords": "1765,750,1867,945",
+        "href": "http://en.wikipedia.org/wiki/Leopold_II_of_Belgium",
+        "shape": "RECT",
+        "title": "Leopold II of Belgium"
+    },
+    {
+        "alt": "Basil the Bulgar Slayer",
+        "coords": "1932,659,2012,749",
+        "href": "http://en.wikipedia.org/wiki/Basil_the_Bulgar_Slayer",
+        "shape": "RECT",
+        "title": "Basil the Bulgar Slayer"
+    },
+    {
+        "alt": "Oliver Cromwell",
+        "coords": "1957,1026,2023,1130",
+        "href": "http://en.wikipedia.org/wiki/Oliver_Cromwell",
+        "shape": "RECT",
+        "title": "Oliver Cromwell"
+    },
+    {
+        "alt": "Caligula",
+        "coords": "1504,735,1566,842",
+        "href": "http://en.wikipedia.org/wiki/Caligula",
+        "shape": "RECT",
+        "title": "Caligula"
+    },
+    {
+        "alt": "Emperor Nero",
+        "coords": "1732,673,1731,655,1733,646,1759,635,1778,635,1791,672,1816,746,1799,746,1779,740,1764,744,1724,784,1714,737,1740,717,1735,692,1731,683",
+        "href": "http://en.wikipedia.org/wiki/Nero",
+        "shape": "POLY",
+        "title": "Emperor Nero"
+    },
+    {
+        "alt": "Théoneste Bagosora",
+        "coords": "2038,618,2102,719",
+        "href": "http://en.wikipedia.org/wiki/Th%C3%A9oneste_Bagosora",
+        "shape": "RECT",
+        "title": "Théoneste Bagosora"
+    },  
+    {
+        "alt": "Saddam Hussein",
+        "coords": "2325,567,2377,640",
+        "href": "http://en.wikipedia.org/wiki/Sadam_Hussein",
+        "shape": "RECT",
+        "title": "Saddam Hussein"
+    },
+    {
+        "alt": "Idi Amin",
+        "coords": "2457,578,2501,646",
+        "href": "http://en.wikipedia.org/wiki/Idi_Amin",
+        "shape": "RECT",
+        "title": "Idi Amin"
+    },
+    {
+        "alt": "Ante Pavelić",
+        "coords": "2498,644,2557,736",
+        "href": "http://en.wikipedia.org/wiki/Ante_Paveli%C4%87",
+        "shape": "RECT",
+        "title": "Ante Pavelić"
+    },
+    {
+        "alt": "Chiang Kai-shek",
+        "coords": "2366,641,2442,759",
+        "href": "http://en.wikipedia.org/wiki/Chiang_Kai-shek",
+        "shape": "RECT",
+        "title": "Chiang Kai-shek"
+    },
+    {
+        "alt": "Ferdinand Marcos",
+        "coords": "2244,618,2299,699",
+        "href": "http://en.wikipedia.org/wiki/Ferdinand_Marcos",
+        "shape": "RECT",
+        "title": "Ferdinand Marcos"
+    },
+    {
+        "alt": "François Duvalier \"Papa Doc\"",
+        "coords": "2177,629,2235,710",
+        "href": "http://en.wikipedia.org/wiki/Francois_%22Papa_Doc%22_Duvalier",
+        "shape": "RECT",
+        "title": "François Duvalier \"Papa Doc\""
+    },
+    {
+        "alt": "Yahya Khan",
+        "coords": "2300,701,2338,787",
+        "href": "http://en.wikipedia.org/wiki/Yahya_Khan",
+        "shape": "RECT",
+        "title": "Yahya Khan"
+    },
+    {
+        "alt": "Lyndon Johnson",
+        "coords": "2168,723,2232,790",
+        "href": "http://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident",
+        "shape": "RECT",
+        "title": "Lyndon Johnson"
+    },
+    {
+        "alt": "Adolf Hitler",
+        "coords": "1816,591,1908,711",
+        "href": "http://en.wikipedia.org/wiki/Hitler",
+        "shape": "RECT",
+        "title": "Adolf Hitler"
+    },
+    {
+        "alt": "Ratko Mladić",
+        "coords": "2238,807,2306,926",
+        "href": "http://en.wikipedia.org/wiki/Ratko_mladic",
+        "shape": "RECT",
+        "title": "Ratko Mladić"
+    },
+    {
+        "alt": "Juan Perón",
+        "coords": "2119,794,2207,967",
+        "href": "http://en.wikipedia.org/wiki/Juan_Peron",
+        "shape": "RECT",
+        "title": "Juan Perón"
+    },
+    {
+        "alt": "Kim Jong-il",
+        "coords": "1976,851,2054,965",
+        "href": "http://en.wikipedia.org/wiki/Kim_Jong-il",
+        "shape": "RECT",
+        "title": "Kim Jong-il"
+    },
+    {
+        "alt": "Vlad the Impaler",
+        "coords": "1632,697,1709,807",
+        "href": "http://en.wikipedia.org/wiki/Vlad_Tepes",
+        "shape": "RECT",
+        "title": "Vlad the Impaler"
+    },
+    {
+        "alt": "Pol Pot",
+        "coords": "1450,871,1506,955",
+        "href": "http://en.wikipedia.org/wiki/Pol_pot",
+        "shape": "RECT",
+        "title": "Pol Pot"
+    },
+    {
+        "alt": "Joseph Stalin",
+        "coords": "2055,736,2115,831",
+        "href": "http://en.wikipedia.org/wiki/Stalin",
+        "shape": "RECT",
+        "title": "Joseph Stalin"
+    },   
+    {
+        "alt": "Mao Zedong",
+        "coords": "1888,783,1967,933",
+        "href": "http://en.wikipedia.org/wiki/Mao",
+        "shape": "RECT",
+        "title": "Mao Zedong"
+    },
+    {
+        "alt": "Muammar Gaddafi",
+        "coords": "1569,813,1706,915",
+        "href": "http://en.wikipedia.org/wiki/Muammar_Gaddafi",
+        "shape": "RECT",
+        "title": "Muammar Gaddafi"
+    },
+    {
+        "alt": "Infanticide - the intentional killing of infants.",
+        "coords": "1893,466,2057,505",
+        "href": "http://blogs.independent.co.uk/2012/01/16/it%E2%80%99s-a-girl-the-three-deadliest-words-in-the-world/",
+        "shape": "RECT",
+        "title": "Infanticide - the intentional killing of infants."
+    },
+    {
+        "alt": "H. H. Holmes",
+        "coords": "2330,859,2422,964",
+        "href": "http://en.wikipedia.org/wiki/HH_Holmes",
+        "shape": "RECT",
+        "title": "H. H. Holmes"
+    },
+    {
+        "alt": "Mary I of England",
+        "coords": "2505,878,2585,966",
+        "href": "http://en.wikipedia.org/wiki/Mary_I_of_England",
+        "shape": "RECT",
+        "title": "Mary I of England"
+    },
+    {
+        "alt": "Emperor Diocletian",
+        "coords": "2341,760,2398,824",
+        "href": "http://en.wikipedia.org/wiki/Diocletian",
+        "shape": "RECT",
+        "title": "Emperor Diocletian"
+    },
+    {
+        "alt": "Elizabeth Báthory",
+        "coords": "2467,758,2587,861",
+        "href": "http://en.wikipedia.org/wiki/Elizabeth_B%C3%A1thory",
+        "shape": "RECT",
+        "title": "Elizabeth Báthory"
+    },
+    {
+        "alt": "Timur (aka Tamerlane)",
+        "coords": "1923,552,1997,657",
+        "href": "http://en.wikipedia.org/wiki/Timur",
+        "shape": "RECT",
+        "title": "Timur (aka Tamerlane)"
+    },
+    {
+        "alt": "Niccolò Machiavelli",
+        "coords": "2103,554,2153,644",
+        "href": "http://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli",
+        "shape": "RECT",
+        "title": "Niccolò Machiavelli"
+    },
+    {
+        "alt": "Auschwitz concentration camp",
+        "coords": "2161,436,2574,566",
+        "href": "http://en.wikipedia.org/wiki/Auschwitz_concentration_camp",
+        "shape": "RECT",
+        "title": "Auschwitz concentration camp"
+    },
+    {
+        "alt": "",
+        "coords": "1785,141,1873,523",
+        "href": "http://en.wikipedia.org/wiki/V-2_rocket",
+        "shape": "RECT",
+        "title": ""
+    },
+    {
+        "alt": "Enola Gay -the Boeing B-29 Superfortress bomber",
+        "coords": "2119,172,2262,250",
+        "href": "http://en.wikipedia.org/wiki/Enola_Gay",
+        "shape": "RECT",
+        "title": "Enola Gay -the Boeing B-29 Superfortress bomber"
+    },
+    {
+        "alt": "MQ-1 Predator Drone",
+        "coords": "2239,158,2310,159,2312,230,2539,237,2537,113,2222,115",
+        "href": "http://en.wikipedia.org/wiki/MQ-1_Predator",
+        "shape": "POLY",
+        "title": "MQ-1 Predator Drone"
+    },
+    {
+        "alt": "Tiananmen Square protests of 1989",
+        "coords": "1166,697,1159,622,1220,589,1345,525,1206,456,1223,434,1383,510,1391,475,1516,464,1506,377,1520,377,1563,470,1595,475,1595,506,1642,518,1662,459,1664,241,1715,403,1726,424,1730,435,1747,453,1718,620,1723,695,1577,645,1582,695,1559,694,1546,663,1343,662,1305,662,1309,720,1254,812,1179,767,1164,737",
+        "href": "http://en.wikipedia.org/wiki/Tiananmen_Square_protests_of_1989",
+        "shape": "POLY",
+        "title": "Tiananmen Square protests of 1989"
+    },
+    {
+        "alt": "Lady Justice",
+        "coords": "1061,512,1158,690",
+        "href": "http://en.wikipedia.org/wiki/Lady_Justice",
+        "shape": "RECT",
+        "title": "Lady Justice"
+    },
+    {
+        "alt": "George the dog",
+        "coords": "883,1452,1038,1600",
+        "href": "http://en.wikipedia.org/wiki/George_%28dog%29",
+        "shape": "RECT",
+        "title": "George the dog"
+    },
+    {
+        "alt": "Gautama Buddha",
+        "coords": "1117,1350,1188,1649",
+        "href": "http://en.wikipedia.org/wiki/Buddha",
+        "shape": "RECT",
+        "title": "Gautama Buddha"
+    },
+    {
+        "alt": "Supreme Court of the United States",
+        "coords": "33,279,569,529",
+        "href": "http://en.wikipedia.org/wiki/US_Supreme_Court",
+        "shape": "RECT",
+        "title": "Supreme Court of the United States"
+    },
+    {
+        "alt": "Library of Alexandria",
+        "coords": "724,544,711,489,723,446,1059,497,1055,644,935,648,915,601,912,580,873,581,875,559,854,551,830,552,781,551",
+        "href": "http://en.wikipedia.org/wiki/Library_of_Alexandria",
+        "shape": "POLY",
+        "title": "Library of Alexandria"
+    },        
+    {
+        "alt": "Gutenberg Printing Press",
+        "coords": "12,1086,11,972,11,901,5,786,43,772,242,840,232,881,232,892,233,902,236,907,235,919,234,927,233,940,230,957,249,999,262,1005,247,1024,241,1523,11,1522",
+        "href": "http://en.wikipedia.org/wiki/Guttenberg_press",
+        "shape": "POLY",
+        "title": "Gutenberg Printing Press"
+    },
+    {
+        "alt": "Dove - A Symbol of Peace",
+        "coords": "1358,711,1435,920",
+        "href": "http://en.wikipedia.org/wiki/Peace_symbols",
+        "shape": "RECT",
+        "title": "Dove - A Symbol of Peace"
+    },
+    {
+        "alt": "Lao Tzu",
+        "coords": "858,761,857,791,974,788,974,767,934,738,929,689,903,669,884,697",
+        "href": "http://en.wikipedia.org/wiki/Laozi",
+        "shape": "POLY",
+        "title": "Lao Tzu"
+    },
+    {
+        "alt": "Jean-Baptiste de La Salle",
+        "coords": "648,880,701,1012",
+        "href": "http://en.wikipedia.org/wiki/Jean-Baptiste_de_La_Salle",
+        "shape": "RECT",
+        "title": "Jean-Baptiste de La Salle"
+    },
+    {
+        "alt": "Galileo Galilei",
+        "coords": "244,836,289,968",
+        "href": "http://en.wikipedia.org/wiki/Galileo_Galilei",
+        "shape": "RECT",
+        "title": "Galileo Galilei"
+    },
+    {
+        "alt": "Martin Luther",
+        "coords": "381,798,458,941",
+        "href": "http://en.wikipedia.org/wiki/Martin_Luther",
+        "shape": "RECT",
+        "title": "Martin Luther"
+    },
+    {
+        "alt": "Hugh Thompson, Jr.",
+        "coords": "399,536,466,645",
+        "href": "http://en.wikipedia.org/wiki/Hugh_Thompson,_Jr.",
+        "shape": "RECT",
+        "title": "Hugh Thompson, Jr."
+    },
+    {
+        "alt": "Thomas Jefferson",
+        "coords": "300,608,371,700",
+        "href": "http://en.wikipedia.org/wiki/Thomas_Jefferson",
+        "shape": "RECT",
+        "title": "Thomas Jefferson"
+    },
+    {
+        "alt": "Baron Montesquieu",
+        "coords": "238,727,281,805",
+        "href": "http://en.wikipedia.org/wiki/Baron_Montesquieu",
+        "shape": "RECT",
+        "title": "Baron Montesquieu"
+    },
+    {
+        "alt": "Solon of Athens",
+        "coords": "336,708,381,812",
+        "href": "http://en.wikipedia.org/wiki/Solon_of_Athens",
+        "shape": "RECT",
+        "title": "Solon of Athens"
+    },
+    {
+        "alt": "Adam Smith",
+        "coords": "488,804,555,874",
+        "href": "http://en.wikipedia.org/wiki/Adam_smith",
+        "shape": "RECT",
+        "title": "Adam Smith"
+    }
+  ]
+  

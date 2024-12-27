@@ -4,10 +4,10 @@ const FloatName = ({ visible, title, x, y }) => {
     if (!visible) return null; // Si no está visible, no renderizar nada
 
     return (
-        <div 
+        <div
             style={{
                 position: 'absolute',
-                top: `${y}px`,
+                top: `${y - 20}px`,  // Ajusta la distancia desde el área
                 left: `${x}px`,
                 backgroundColor: 'rgba(0, 0, 0, 0.7)',
                 color: 'white',
@@ -15,7 +15,7 @@ const FloatName = ({ visible, title, x, y }) => {
                 borderRadius: '5px',
                 fontSize: '12px',
                 pointerEvents: 'none', // Para que no interfiera con el mouse
-                transform: 'translate(-50%, -100%)', // Centrar el floatName
+                transform: 'translateX(-50%)', // Solo centrar horizontalmente
             }}
         >
             {title}

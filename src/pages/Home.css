@@ -1,0 +1,181 @@
+/* Estilos específicos para la página Home en Modo Oscuro */
+.home-page {
+  background: #121212;  /* Fondo oscuro */
+  color: #e0e0e0;  /* Texto claro */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más fuerte para destacar los elementos */
+  max-width: 1200px;
+  width: 100%;
+  padding: 30px;
+  overflow: hidden;
+  animation: fadeIn 1s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;  /* Título claro */
+  margin-bottom: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.home-page__imageSelection {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  animation: fadeIn 1s ease-out;
+}
+
+.home-page__imageWrapper {
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  position: relative; /* Necesario para colocar el pseudo-elemento */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-page__imageWrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
+}
+
+.home-page__image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.home-page__selected {
+  border: 4px solid #4a90e2;  /* Resalta la imagen seleccionada con un borde azul */
+}
+
+/* Oscurecer la imagen seleccionada */
+.home-page__imageWrapper.selected::before {
+  content: ''; /* Es necesario para mostrar el pseudo-elemento */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);  /* Fondo negro con 30% de opacidad */
+  border-radius: 8px;
+  z-index: 1; /* Asegura que la capa oscura esté sobre la imagen */
+}
+
+.home-page__imageWrapper.selected img {
+  z-index: 0; /* Hace que la imagen esté detrás del pseudo-elemento */
+}
+
+/* Estilos del botón Visualizar */
+.home-page__button {
+  padding: 12px 24px;
+  background-color: #333;  /* Fondo oscuro */
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: not-allowed;
+  margin: 20px auto;
+  display: block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-page__button.active {
+  background-color: #4a90e2; /* Azul cuando está activo */
+  cursor: pointer;
+}
+
+.home-page__button.active:hover {
+  background-color: #357abd;
+  transform: translateY(-3px);
+}
+
+.home-page__button.active:active {
+  transform: translateY(1px);
+}
+
+/* Cambios en el layout para el input y el botón Validar */
+.home-page__apiKeySection {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  background: #2c2c2c;  /* Fondo oscuro para la sección de la API Key */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.home-page__apiKeySection input {
+  width: 250px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #555; /* Borde gris oscuro */
+  background-color: #333; /* Fondo oscuro del input */
+  color: #fff;  /* Texto blanco dentro del input */
+  border-radius: 50px;
+  transition: border-color 0.3s ease;
+}
+
+.home-page__apiKeySection input:focus {
+  outline: none;
+  border-color: #4a90e2;  /* Resalta el borde cuando el input está en foco */
+}
+
+.home-page__apiKeySection button {
+  padding: 12px 24px;
+  background-color: #4a90e2;  /* Color del botón de Validar */
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-page__apiKeySection button:hover {
+  background-color: #357abd;
+  transform: translateY(-3px);
+}
+
+.home-page__apiKeySection button:active {
+  transform: translateY(1px);
+}
+
+/* Estilos para el mensaje de éxito y error */
+.home-page__success,
+.home-page__error {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.home-page__success {
+  color: #28a745;
+}
+
+.home-page__error {
+  color: #e74c3c;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
