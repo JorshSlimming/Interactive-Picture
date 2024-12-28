@@ -1,9 +1,9 @@
-/* Estilos específicos para la página Home en Modo Oscuro */
+/* Estilos generales para la página Home en Modo Oscuro */
 .home-page {
   background: #121212;  /* Fondo oscuro */
   color: #e0e0e0;  /* Texto claro */
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más fuerte para destacar los elementos */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar */
   max-width: 1200px;
   width: 100%;
   padding: 30px;
@@ -23,6 +23,41 @@
   letter-spacing: 1px;
 }
 
+/* Estilos para los botones de cambio de idioma */
+.language-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.language-buttons button {
+  background-color: transparent;
+  border: 1px solid #4a90e2;
+  color: #4a90e2;
+  padding: 8px 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.language-buttons button:hover {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.language-buttons button:focus {
+  outline: none;
+}
+
+/* Resaltar el idioma seleccionado */
+.language-buttons button.selected {
+  background-color: #4a90e2;  /* Fondo azul para el idioma seleccionado */
+  color: white;  /* Texto blanco cuando está seleccionado */
+  border-color: #357abd; /* Borde más oscuro para el idioma seleccionado */
+}
+
+
+/* Estilos para la selección de imágenes */
 .home-page__imageSelection {
   display: flex;
   gap: 15px;
@@ -37,7 +72,7 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
-  position: relative; /* Necesario para colocar el pseudo-elemento */
+  position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -57,57 +92,29 @@
   border: 4px solid #4a90e2;  /* Resalta la imagen seleccionada con un borde azul */
 }
 
-/* Oscurecer la imagen seleccionada */
+/* Estilo del pseudo-elemento para oscurecer imagen seleccionada */
 .home-page__imageWrapper.selected::before {
-  content: ''; /* Es necesario para mostrar el pseudo-elemento */
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);  /* Fondo negro con 30% de opacidad */
+  background: rgba(0, 0, 0, 0.3);  /* Fondo oscuro semitransparente */
   border-radius: 8px;
-  z-index: 1; /* Asegura que la capa oscura esté sobre la imagen */
+  z-index: 1; 
 }
 
 .home-page__imageWrapper.selected img {
-  z-index: 0; /* Hace que la imagen esté detrás del pseudo-elemento */
+  z-index: 0; 
 }
 
-/* Estilos del botón Visualizar */
-.home-page__button {
-  padding: 12px 24px;
-  background-color: #333;  /* Fondo oscuro */
-  color: #fff;
-  border: none;
-  border-radius: 50px;
-  font-size: 16px;
-  cursor: not-allowed;
-  margin: 20px auto;
-  display: block;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.home-page__button.active {
-  background-color: #4a90e2; /* Azul cuando está activo */
-  cursor: pointer;
-}
-
-.home-page__button.active:hover {
-  background-color: #357abd;
-  transform: translateY(-3px);
-}
-
-.home-page__button.active:active {
-  transform: translateY(1px);
-}
-
-/* Cambios en el layout para el input y el botón Validar */
+/* Estilos para la sección de API Key */
 .home-page__apiKeySection {
   display: flex;
   align-items: center;
   margin-top: 30px;
-  background: #2c2c2c;  /* Fondo oscuro para la sección de la API Key */
+  background: #2c2c2c;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -118,21 +125,21 @@
   width: 250px;
   padding: 12px;
   font-size: 16px;
-  border: 1px solid #555; /* Borde gris oscuro */
-  background-color: #333; /* Fondo oscuro del input */
-  color: #fff;  /* Texto blanco dentro del input */
+  border: 1px solid #555;
+  background-color: #333;
+  color: #fff;
   border-radius: 50px;
   transition: border-color 0.3s ease;
 }
 
 .home-page__apiKeySection input:focus {
   outline: none;
-  border-color: #4a90e2;  /* Resalta el borde cuando el input está en foco */
+  border-color: #4a90e2;
 }
 
 .home-page__apiKeySection button {
   padding: 12px 24px;
-  background-color: #4a90e2;  /* Color del botón de Validar */
+  background-color: #4a90e2;
   color: #fff;
   border: none;
   border-radius: 50px;
@@ -151,7 +158,7 @@
   transform: translateY(1px);
 }
 
-/* Estilos para el mensaje de éxito y error */
+/* Estilos para mensajes de éxito y error */
 .home-page__success,
 .home-page__error {
   font-size: 14px;
@@ -168,7 +175,35 @@
   color: #e74c3c;
 }
 
-/* Animaciones */
+/* Estilos para el botón Visualizar */
+.home-page__button {
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: not-allowed;
+  margin: 20px auto;
+  display: block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-page__button.active {
+  background-color: #4a90e2;
+  cursor: pointer;
+}
+
+.home-page__button.active:hover {
+  background-color: #357abd;
+  transform: translateY(-3px);
+}
+
+.home-page__button.active:active {
+  transform: translateY(1px);
+}
+
+/* Animaciones de desvanecimiento */
 @keyframes fadeIn {
   0% {
     opacity: 0;

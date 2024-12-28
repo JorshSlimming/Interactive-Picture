@@ -49,9 +49,20 @@ const Home = () => {
 
       {/* Botones para cambiar el idioma */}
       <div className="language-buttons">
-        <button onClick={() => handleLanguageChange('es')}>Español</button>
-        <button onClick={() => handleLanguageChange('en')}>English</button>
+        <button 
+          onClick={() => handleLanguageChange('es')} 
+          className={i18n.language === 'es' ? 'selected' : ''}  // Clase 'selected' si el idioma es español
+        >
+          Español
+        </button>
+        <button 
+          onClick={() => handleLanguageChange('en')} 
+          className={i18n.language === 'en' ? 'selected' : ''}  // Clase 'selected' si el idioma es inglés
+        >
+          English
+        </button>
       </div>
+
 
       <div className="home-page__imageSelection">
         {images.keys().map((image, index) => {
