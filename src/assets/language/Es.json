@@ -1,0 +1,16 @@
+{
+  "home": {
+    "title": "Selecciona una imagen",
+    "apiKeyPlaceholder": "Pega tu API Key aquí",
+    "validateButton": "Validar",
+    "visualizeButton": "Visualizar",
+    "apiKeyValid": "API Key válida",
+    "apiKeyInvalid": "API Key inválida"
+  },
+  "characterDetail": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "closeButton": "Cerrar",
+    "homeButton": "Home"
+  }
+}

@@ -3,8 +3,7 @@ import { useLocation } from 'react-router-dom';
 import CharacterDetail from '../components/CharacterDetail';
 import FloatName from '../components/FloatName';
 
-// Cargar todas las áreas (JSON) de la carpeta "assets" de manera dinámica
-const areasContext = require.context('../assets', false, /\.json$/);
+const areasContext = require.context('../assets/pictures', false, /\.json$/);
 
 const Picture = () => {
   const [modalVisible, setModalVisible] = useState(false);
@@ -12,29 +11,27 @@ const Picture = () => {
   const [floatName, setFloatName] = useState({ visible: false, title: '', x: 0, y: 0 });
   const [imageDimensions, setImageDimensions] = useState({ width: 0, height: 0 });
   const [imageLoaded, setImageLoaded] = useState(false);
-  const [areasData, setAreasData] = useState([]); // Nuevo estado para áreas de la imagen
-  const [imageSrc, setImageSrc] = useState(null); // Estado para la ruta de la imagen
+  const [areasData, setAreasData] = useState([]); 
+  const [imageSrc, setImageSrc] = useState(null);
 
-  // Cargar la imagen desde el estado pasado por la navegación
   const location = useLocation();
-  const { image } = location.state || {}; // Recuperamos la ruta de la imagen desde el estado
+  const { image } = location.state || {}; 
 
   let currentAspectX = 1;
   let currentAspectY = 1;
 
-  // Función para cargar dinámicamente el archivo JSON correspondiente
   const loadAreasData = (imageName) => {
     try {
-      const jsonFileName = imageName.replace(/\.[^/.]+$/, '') + '.json'; // Generar el nombre del archivo JSON
-      const areas = areasContext(`./${jsonFileName}`); // Cargar el archivo JSON dinámicamente
-      setAreasData(areas); // Guardar las áreas en el estado
+      const jsonFileName = imageName.replace(/\.[^/.]+$/, '') + '.json'; 
+      const areas = areasContext(`./${jsonFileName}`); 
+      setAreasData(areas); 
     } catch (error) {
       console.error("Error al cargar el archivo JSON:", error);
-      setAreasData([]); // En caso de error, aseguramos que áreasData quede vacío
+      setAreasData([]); 
     }
   };
 
-  // Ajustar las coordenadas del mapa
+  
   const adjustCoords = (scaleX, scaleY, isAdjusting = true) => {
     const areas = document.querySelectorAll('area');
     areas.forEach((area) => {
@@ -92,7 +89,7 @@ const Picture = () => {
 
   const handleAreaClick = (e, title, href) => {
     setModalContent({ title, link: href });
-    setModalVisible(true); // Mostrar el modal
+    setModalVisible(true); 
   };
 
   const closeModal = () => {
@@ -101,8 +98,8 @@ const Picture = () => {
 
   useEffect(() => {
     if (image) {
-      setImageSrc(image); // Asignamos la imagen pasada a la página
-      loadAreasData(image); // Cargar las áreas de la imagen seleccionada
+      setImageSrc(image); 
+      loadAreasData(image); 
     }
   }, [image]);
 
@@ -122,7 +119,7 @@ const Picture = () => {
       {imageSrc && (
         <img
           id="image"
-          src={require(`../assets/${imageSrc}`)} // Cargar la imagen seleccionada
+          src={require(`../assets/pictures/${imageSrc}`)} 
           useMap="#Map"
           onLoad={handleImageLoad}
         />
@@ -143,10 +140,8 @@ const Picture = () => {
           ))}
       </map>
 
-      {/* Usando el componente FloatName */}
       <FloatName visible={floatName.visible} title={floatName.title} x={floatName.x} y={floatName.y} />
 
-      {/* Modal */}
       {modalVisible && (
         <CharacterDetail title={modalContent.title} link={modalContent.link} onClose={closeModal} />
       )}

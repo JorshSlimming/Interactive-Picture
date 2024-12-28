@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Home.css';  // Importar el archivo CSS
+import { validateApiKey } from '../Api';  // Ya incluye la función para validar la API Key
+import { useTranslation } from 'react-i18next'; // Importamos el hook de i18next
+import './Home.css';  
 
-const images = require.context('../assets', false, /\.(jpg|jpeg|png)$/);
+const images = require.context('../assets/pictures', false, /\.(jpg|jpeg|png)$/);
 
 const Home = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [apiKey, setApiKey] = useState('');
-  const [isValid, setIsValid] = useState(null);
+  const [isValid, setIsValid] = useState(null);  
   const navigate = useNavigate();
+
+  // Usamos el hook useTranslation para acceder a las traducciones
+  const { t, i18n } = useTranslation();
 
   const handleImageSelect = (image) => {
     if (selectedImage === image) {
@@ -18,19 +23,35 @@ const Home = () => {
     }
   };
 
-  const validateApiKey = () => {
-    setIsValid(!!apiKey);
+  const handleApiKeyValidation = async () => {
+    const isApiKeyValid = await validateApiKey(apiKey); 
+
+    if (isApiKeyValid) {
+      setIsValid(true);
+    } else {
+      setIsValid(false);
+    }
   };
 
   const handleVisualize = () => {
-    if (selectedImage) {
-      navigate('/picture', { state: { image: selectedImage } });
+    if (selectedImage && isValid) {
+      navigate('/picture', { state: { image: selectedImage, apiKey } });
     }
+  };
+
+  const handleLanguageChange = (lang) => {
+    i18n.changeLanguage(lang);  // Cambia el idioma con i18n
   };
 
   return (
     <div className="home-page">
-      <h1>Selecciona una imagen</h1>
+      <h1>{t('home.title')}</h1> {/* Usamos la traducción para el título */}
+
+      {/* Botones para cambiar el idioma */}
+      <div className="language-buttons">
+        <button onClick={() => handleLanguageChange('es')}>Español</button>
+        <button onClick={() => handleLanguageChange('en')}>English</button>
+      </div>
 
       <div className="home-page__imageSelection">
         {images.keys().map((image, index) => {
@@ -54,27 +75,26 @@ const Home = () => {
       <div className="home-page__apiKeySection">
         <input
           type="text"
-          placeholder="Pega tu API Key aquí"
+          placeholder={t('home.apiKeyPlaceholder')} // Traducción para el placeholder
           value={apiKey}
           onChange={(e) => setApiKey(e.target.value)}
           className="home-page__input"
         />
-        <button onClick={validateApiKey} className="home-page__button">Validar</button>
+        <button onClick={handleApiKeyValidation} className="home-page__button">{t('home.validateButton')}</button> {/* Traducción para el botón "Validar" */}
       </div>
 
       {isValid !== null && (
-          <p className={isValid ? 'home-page__success' : 'home-page__error'}>
-            {isValid ? 'API Key válida' : 'API Key inválida'}
-          </p>
-        )}
+        <p className={isValid ? 'home-page__success' : 'home-page__error'}>
+          {isValid ? t('home.apiKeyValid') : t('home.apiKeyInvalid')} {/* Mensajes de validación de la API Key */}
+        </p>
+      )}
 
-      {/* Botón Visualizar, siempre visible debajo del formulario de API Key */}
       <button 
         onClick={handleVisualize} 
-        className={`home-page__button ${selectedImage ? 'active' : ''}`}
-        disabled={!selectedImage} // El botón se desactiva si no hay imagen seleccionada
+        className={`home-page__button ${selectedImage && isValid ? 'active' : ''}`}
+        disabled={!selectedImage || !isValid} 
       >
-        Visualizar
+        {t('home.visualizeButton')} {/* Traducción para el botón "Visualizar" */}
       </button>
     </div>
   );
