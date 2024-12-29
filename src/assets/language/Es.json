@@ -5,7 +5,8 @@
     "validateButton": "Validar",
     "visualizeButton": "Visualizar",
     "apiKeyValid": "API Key válida",
-    "apiKeyInvalid": "API Key inválida"
+    "apiKeyInvalid": "API Key inválida",
+    "getApiKeyLink": "Obtener Clave Api"
   },
   "characterDetail": {
     "loading": "Cargando...",

@@ -83,22 +83,35 @@ const Home = () => {
         })}
       </div>
 
-      <div className="home-page__apiKeySection">
-        <input
-          type="text"
-          placeholder={t('home.apiKeyPlaceholder')} // Traducción para el placeholder
-          value={apiKey}
-          onChange={(e) => setApiKey(e.target.value)}
-          className="home-page__input"
-        />
-        <button onClick={handleApiKeyValidation} className="home-page__button">{t('home.validateButton')}</button> {/* Traducción para el botón "Validar" */}
+      <div className='home-page__apiKeySection' >
+        <div className="home-page__apiKeyInput">
+            <input
+              type="text"
+              placeholder={t('home.apiKeyPlaceholder')} // Traducción para el placeholder
+              value={apiKey}
+              onChange={(e) => setApiKey(e.target.value)}
+              className="home-page__input"
+            />
+            <button onClick={handleApiKeyValidation} className="home-page__button">{t('home.validateButton')}</button> {/* Traducción para el botón "Validar" */}
+        </div>  
+        <div className="api-key-info">
+          {isValid !== null && (
+            <p className={isValid ? 'home-page__success' : 'home-page__error'}>
+              {isValid ? t('home.apiKeyValid') : t('home.apiKeyInvalid')} {/* Mensajes de validación de la API Key */}
+            </p>
+          )}  
+          <a 
+            href="https://aistudio.google.com/app/apikey" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="api-key-link"
+          >
+            {t('home.getApiKeyLink')}
+          </a>
+        </div>    
       </div>
 
-      {isValid !== null && (
-        <p className={isValid ? 'home-page__success' : 'home-page__error'}>
-          {isValid ? t('home.apiKeyValid') : t('home.apiKeyInvalid')} {/* Mensajes de validación de la API Key */}
-        </p>
-      )}
+      
 
       <button 
         onClick={handleVisualize} 

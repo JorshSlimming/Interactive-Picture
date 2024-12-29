@@ -1,0 +1,387 @@
+[
+    {
+        "alt": "Joan Rivers",
+        "coords": "810,258,37",
+        "href": "https://en.wikipedia.org/wiki/Joan_Rivers",
+        "shape": "CIRCLE",
+        "title": "Joan Rivers"
+    },
+    {
+        "alt": "Mother Teresa",
+        "coords": "863,406,37",
+        "href": "https://en.wikipedia.org/wiki/Mother_Teresa",
+        "shape": "CIRCLE",
+        "title": "Mother Teresa"
+    },
+    {
+        "alt": "Rosa Parks",
+        "coords": "951,457,37",
+        "href": "https://en.wikipedia.org/wiki/Rosa_Parks",
+        "shape": "CIRCLE",
+        "title": "Rosa Parks"
+    },
+    {
+        "alt": "Harriet Tubman",
+        "coords": "1041,463,42",
+        "href": "https://en.wikipedia.org/wiki/Harriet_Tubman",
+        "shape": "CIRCLE",
+        "title": "Harriet Tubman"
+    },
+    {
+        "alt": "Harriet Beecher Stowe",
+        "coords": "1126,386,45",
+        "href": "https://en.wikipedia.org/wiki/Harriet_Beecher_Stowe",
+        "shape": "CIRCLE",
+        "title": "Harriet Beecher Stowe"
+    },
+    {
+        "alt": "Serena Williams",
+        "coords": "1060,334,39",
+        "href": "https://en.wikipedia.org/wiki/Serena_Williams",
+        "shape": "CIRCLE",
+        "title": "Serena Williams"
+    },
+    {
+        "alt": "Queen Elizabeth II",
+        "coords": "1216,223,40",
+        "href": "https://en.wikipedia.org/wiki/Elizabeth_II",
+        "shape": "CIRCLE",
+        "title": "Queen Elizabeth II"
+    },
+    {
+        "alt": "Jane Goodall",
+        "coords": "1275,273,29",
+        "href": "https://en.wikipedia.org/wiki/Jane_Goodall",
+        "shape": "CIRCLE",
+        "title": "Jane Goodall"
+    },
+    {
+        "alt": "SoJourner Truth",
+        "coords": "1188,311,42",
+        "href": "https://en.wikipedia.org/wiki/Sojourner_Truth",
+        "shape": "CIRCLE",
+        "title": "SoJourner Truth"
+    },
+    {
+        "alt": "Empress Dowager Cixi",
+        "coords": "1264,437,53",
+        "href": "https://en.wikipedia.org/wiki/Empress_Dowager_Cixi",
+        "shape": "CIRCLE",
+        "title": "Empress Dowager Cixi"
+    },
+    {
+        "alt": "Mary Edwards Walker",
+        "coords": "1323,337,31",
+        "href": "https://en.wikipedia.org/wiki/Mary_Edwards_Walker",
+        "shape": "CIRCLE",
+        "title": "Mary Edwards Walker"
+    },
+    {
+        "alt": "Queen Victoria",
+        "coords": "1339,227,35",
+        "href": "https://en.wikipedia.org/wiki/Queen_Victoria",
+        "shape": "CIRCLE",
+        "title": "Queen Victoria"
+    },
+    {
+        "alt": "Rosalind Franklin",
+        "coords": "1401,289,39",
+        "href": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+        "shape": "CIRCLE",
+        "title": "Rosalind Franklin"
+    },
+    {
+        "alt": "Marie Antoinette",
+        "coords": "1472,374,52",
+        "href": "https://en.wikipedia.org/wiki/Marie_Antoinette",
+        "shape": "CIRCLE",
+        "title": "Marie Antoinette"
+    },
+    {
+        "alt": "Sacagawea",
+        "coords": "1572,303,38",
+        "href": "https://en.wikipedia.org/wiki/Sacagawea",
+        "shape": "CIRCLE",
+        "title": "Sacagawea"
+    },
+    {
+        "alt": "Mother Jones",
+        "coords": "1476,211,47",
+        "href": "https://en.wikipedia.org/wiki/Mother_Jones",
+        "shape": "CIRCLE",
+        "title": "Mother Jones"
+    },
+    {
+        "alt": "Helen of Troy",
+        "coords": "1753,628,56",
+        "href": "https://en.wikipedia.org/wiki/Helen_of_Troy",
+        "shape": "CIRCLE",
+        "title": "Helen of Troy"
+    },
+    {
+        "alt": "Marilyn Monroe",
+        "coords": "1675,488,47",
+        "href": "https://en.wikipedia.org/wiki/Marilyn_Monroe",
+        "shape": "CIRCLE",
+        "title": "Marilyn Monroe"
+    },
+    {
+        "alt": "Rigoberta Menchu",
+        "coords": "1712,402,39",
+        "href": "https://en.wikipedia.org/wiki/Rigoberta_Mench%C3%BA",
+        "shape": "CIRCLE",
+        "title": "Rigoberta Menchu"
+    },
+    {
+        "alt": "Audrey Hepburn",
+        "coords": "1640,376,38",
+        "href": "https://en.wikipedia.org/wiki/Audrey_Hepburn",
+        "shape": "CIRCLE",
+        "title": "Audrey Hepburn"
+    },
+    {
+        "alt": "Annie Oakley",
+        "coords": "1748,317,39",
+        "href": "https://en.wikipedia.org/wiki/Annie_Oakley",
+        "shape": "CIRCLE",
+        "title": "Annie Oakley"
+    },
+    {
+        "alt": "Temple Grandin",
+        "coords": "1863,279,46",
+        "href": "https://en.wikipedia.org/wiki/Temple_Grandin",
+        "shape": "CIRCLE",
+        "title": "Temple Grandin"
+    },
+    {
+        "alt": "Mia Hamm",
+        "coords": "1843,420,57",
+        "href": "https://en.wikipedia.org/wiki/Mia_Hamm",
+        "shape": "CIRCLE",
+        "title": "Mia Hamm"
+    },
+    {
+        "alt": "Shirley Temple",
+        "coords": "1473,782,51",
+        "href": "https://en.wikipedia.org/wiki/Shirley_Temple",
+        "shape": "CIRCLE",
+        "title": "Shirley Temple"
+    },
+    {
+        "alt": "Mary Kay Ash",
+        "coords": "1313,732,55",
+        "href": "https://en.wikipedia.org/wiki/Mary_Kay_Ash",
+        "shape": "CIRCLE",
+        "title": "Mary Kay Ash"
+    },
+    {
+        "alt": "White Tiger",
+        "coords": "1031,778,49",
+        "href": "https://en.wikipedia.org/wiki/White_tiger",
+        "shape": "CIRCLE",
+        "title": "White Tiger"
+    },
+    {
+        "alt": "Lucille Ball",
+        "coords": "1120,605,42",
+        "href": "https://en.wikipedia.org/wiki/Lucille_Ball",
+        "shape": "CIRCLE",
+        "title": "Lucille Ball"
+    },
+    {
+        "alt": "Oprah Winfrey",
+        "coords": "946,594,54",
+        "href": "https://en.wikipedia.org/wiki/Oprah_Winfrey",
+        "shape": "CIRCLE",
+        "title": "Oprah Winfrey"
+    },
+    {
+        "alt": "J.K. Rowling",
+        "coords": "795,500,39",
+        "href": "https://en.wikipedia.org/wiki/J._K._Rowling",
+        "shape": "CIRCLE",
+        "title": "J.K. Rowling"
+    },
+    {
+        "alt": "Cleopatra",
+        "coords": "745,660,55",
+        "href": "https://en.wikipedia.org/wiki/Cleopatra",
+        "shape": "CIRCLE",
+        "title": "Cleopatra"
+    },
+    {
+        "alt": "Jane Austen",
+        "coords": "709,334,40",
+        "href": "https://en.wikipedia.org/wiki/Jane_Austen",
+        "shape": "CIRCLE",
+        "title": "Jane Austen"
+    },
+    {
+        "alt": "Taylor Swift",
+        "coords": "728,175,46",
+        "href": "https://en.wikipedia.org/wiki/Taylor_Swift",
+        "shape": "CIRCLE",
+        "title": "Taylor Swift"
+    },
+    {
+        "alt": "Helen Keller",
+        "coords": "607,253,42",
+        "href": "https://en.wikipedia.org/wiki/Helen_Keller",
+        "shape": "CIRCLE",
+        "title": "Helen Keller"
+    },
+    {
+        "alt": "Elizabeth Blackwell",
+        "coords": "660,405,36",
+        "href": "https://en.wikipedia.org/wiki/Elizabeth_Blackwell",
+        "shape": "CIRCLE",
+        "title": "Elizabeth Blackwell"
+    },
+    {
+        "alt": "Joan of Arc",
+        "coords": "142,174,38",
+        "href": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+        "shape": "CIRCLE",
+        "title": "Joan of Arc"
+    },
+    {
+        "alt": "Eve (The First Woman)",
+        "coords": "262,129,33",
+        "href": "https://en.wikipedia.org/wiki/Eve",
+        "shape": "CIRCLE",
+        "title": "Eve (The First Woman)"
+    },
+    {
+        "alt": "Dolly Parton",
+        "coords": "351,210,37",
+        "href": "https://en.wikipedia.org/wiki/Dolly_Parton",
+        "shape": "CIRCLE",
+        "title": "Dolly Parton"
+    },
+    {
+        "alt": "Billie Holiday",
+        "coords": "437,242,36",
+        "href": "https://en.wikipedia.org/wiki/Billie_Holiday",
+        "shape": "CIRCLE",
+        "title": "Billie Holiday"
+    },
+    {
+        "alt": "Whitney Houston",
+        "coords": "522,282,37",
+        "href": "https://en.wikipedia.org/wiki/Whitney_Houston",
+        "shape": "CIRCLE",
+        "title": "Whitney Houston"
+    },
+    {
+        "alt": "Golda Meir",
+        "coords": "589,369,35",
+        "href": "https://en.wikipedia.org/wiki/Golda_Meir",
+        "shape": "CIRCLE",
+        "title": "Golda Meir"
+    },
+    {
+        "alt": "Clara Barton",
+        "coords": "511,368,29",
+        "href": "https://en.wikipedia.org/wiki/Clara_Barton",
+        "shape": "CIRCLE",
+        "title": "Clara Barton"
+    },
+    {
+        "alt": "Anne Hutchinson",
+        "coords": "433,339,38",
+        "href": "https://en.wikipedia.org/wiki/Anne_Hutchinson",
+        "shape": "CIRCLE",
+        "title": "Anne Hutchinson"
+    },
+    {
+        "alt": "Princess Diana",
+        "coords": "335,297,35",
+        "href": "https://en.wikipedia.org/wiki/Diana,_Princess_of_Wales",
+        "shape": "CIRCLE",
+        "title": "Princess Diana"
+    },
+    {
+        "alt": "Florence Nightingale",
+        "coords": "244,298,32",
+        "href": "https://en.wikipedia.org/wiki/Florence_Nightingale",
+        "shape": "CIRCLE",
+        "title": "Florence Nightingale"
+    },
+    {
+        "alt": "Elizabeth Garrett Anderson",
+        "coords": "119,369,34",
+        "href": "https://en.wikipedia.org/wiki/Elizabeth_Garrett_Anderson",
+        "shape": "CIRCLE",
+        "title": "Elizabeth Garrett Anderson"
+    },
+    {
+        "alt": "Mary Wollstonecraft",
+        "coords": "337,391,33",
+        "href": "https://en.wikipedia.org/wiki/Mary_Wollstonecraft",
+        "shape": "CIRCLE",
+        "title": "Mary Wollstonecraft"
+    },
+    {
+        "alt": "Anna Pavlova",
+        "coords": "221,440,41",
+        "href": "https://en.wikipedia.org/wiki/Anna_Pavlova",
+        "shape": "CIRCLE",
+        "title": "Anna Pavlova"
+    },
+    {
+        "alt": "Wangari Maathai",
+        "coords": "65,451,40",
+        "href": "https://en.wikipedia.org/wiki/Wangarĩ_Maathai",
+        "shape": "CIRCLE",
+        "title": "Wangari Maathai"
+    },
+    {
+        "alt": "Anne Frank",
+        "coords": "389,527,37",
+        "href": "https://en.wikipedia.org/wiki/Anne_Frank",
+        "shape": "CIRCLE",
+        "title": "Anne Frank"
+    },
+    {
+        "alt": "Kim Kardashian",
+        "coords": "583,617,44",
+        "href": "https://en.wikipedia.org/wiki/Kim_Kardashian",
+        "shape": "CIRCLE",
+        "title": "Kim Kardashian"
+    },
+    {
+        "alt": "Barbie",
+        "coords": "613,855,26",
+        "href": "https://en.wikipedia.org/wiki/Barbie",
+        "shape": "CIRCLE",
+        "title": "Barbie"
+    },
+    {
+        "alt": "Mona Lisa",
+        "coords": "510,838,38",
+        "href": "https://en.wikipedia.org/wiki/Mona_Lisa",
+        "shape": "CIRCLE",
+        "title": "Mona Lisa"
+    },
+    {
+        "alt": "Temple of Artemis",
+        "coords": "975,305,46",
+        "href": "https://en.wikipedia.org/wiki/Temple_of_Artemis",
+        "shape": "CIRCLE",
+        "title": "Temple of Artemis"
+    },
+    {
+        "alt": "Amelia Earhart",
+        "coords": "1545,131,42",
+        "href": "https://en.wikipedia.org/wiki/Amelia_Earhart",
+        "shape": "CIRCLE",
+        "title": "Amelia Earhart"
+    },
+    {
+        "alt": "Belle Star",
+        "coords": "1734,63,52",
+        "href": "https://en.wikipedia.org/wiki/Belle_Starr",
+        "shape": "CIRCLE",
+        "title": "Belle Star"
+    }    
+]
