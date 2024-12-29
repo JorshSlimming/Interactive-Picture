@@ -39,22 +39,23 @@ El proyecto está compuesto por los siguientes componentes principales:
 - **CharacterDetail**: Muestra la descripción detallada de un personaje basado en la imagen seleccionada.
 - **FloatName**: Componente que muestra un nombre flotante cuando el usuario pasa el mouse sobre una de las áreas de la imagen.
 
+## Visualizacion de la web
+A continuación se muestran imágenes representativas de cómo lucen las principales páginas de la aplicación:
+
+## Pagina de inicio (Home):
+Esta es la página principal donde los usuarios pueden seleccionar una imagen y validar su API Key.
+![alt text](src/assets/readme/home.png)
+
+## Página de Imagen Interactiva (Picture)
+En esta página, los usuarios pueden ver una imagen con áreas interactivas. Al pasar el ratón sobre las áreas, se muestra un nombre flotante, y al hacer clic en una de las áreas, se obtiene más información sobre el personaje relacionado.
+![alt text](src/assets/readme/picture.png)
+
 ## Funcionalidades
 
 1. **Selección de Imágenes**: Los usuarios pueden seleccionar imágenes de un conjunto predefinido.
 2. **Validación de API Key**: Los usuarios deben ingresar una API Key válida para interactuar con la API.
 3. **Interactividad con las Imágenes**: La aplicación permite hacer clic en áreas específicas de una imagen y ver más detalles sobre el personaje o área seleccionada.
 4. **Internacionalización**: La aplicación soporta múltiples idiomas, como español e inglés, utilizando i18next.
-
-## Componentes Clave
-
-- **Home.js**: Esta es la página principal donde se selecciona la imagen, se ingresa y valida la API Key.
-  
-- **Picture.js**: Muestra la imagen seleccionada y las áreas interactivas de la imagen.
-
-- **CharacterDetail.js**: Proporciona los detalles del personaje, obtenidos a través de la API, cuando se hace clic en una de las áreas de la imagen.
-
-- **FloatName.js**: Muestra un nombre flotante cuando el usuario pasa el mouse sobre una área de la imagen.
 
 ## Uso de la API
 
@@ -67,3 +68,4 @@ La aplicación interactúa con una API para obtener descripciones de personajes 
 ### Ejemplo de uso de la API:
 - **API Key**: La clave debe ser obtenida desde [Google AI Studio](https://aistudio.google.com/app/apikey).
 - **Endpoints**: Utilizamos el modelo de Google "gemini-1.5-flash" para obtener las descripciones.
+
