@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Proyecto: Aplicación de Imágenes Interactivas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación web interactiva que permite a los usuarios seleccionar imágenes, validar una API Key, obtener descripciones detalladas de personajes históricos, y visualizar la información sobre diferentes áreas de las imágenes seleccionadas.
 
-## Available Scripts
+## Tecnologías Usadas
 
-In the project directory, you can run:
+- **React**: Librería para construir interfaces de usuario interactivas.
+- **React Router**: Manejo de rutas en la aplicación.
+- **i18next**: Para la internacionalización (soporte de varios idiomas).
+- **GoogleGenerativeAI (gemini-1.5-flash)**: Para obtener descripciones de personajes históricos
+- **CSS**: Estilos para la maquetación y diseño de la aplicación.
 
-### `npm start`
+## Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clona el repositorio
+   
+2. Navega al directorio del proyecto
 
-### `npm test`
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+   El servidor estará disponible en `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Estructura del Proyecto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+El proyecto está compuesto por los siguientes componentes principales:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Home**: Página de inicio donde los usuarios pueden seleccionar una imagen, ingresar una API Key y validar si es correcta.
+- **Picture**: Página que muestra una imagen seleccionada con áreas interactivas. Al pasar el mouse sobre las áreas, aparece un nombre flotante y, al hacer clic, se muestra un modal con más información.
+- **CharacterDetail**: Muestra la descripción detallada de un personaje basado en la imagen seleccionada.
+- **FloatName**: Componente que muestra un nombre flotante cuando el usuario pasa el mouse sobre una de las áreas de la imagen.
 
-### `npm run eject`
+## Funcionalidades
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Selección de Imágenes**: Los usuarios pueden seleccionar imágenes de un conjunto predefinido.
+2. **Validación de API Key**: Los usuarios deben ingresar una API Key válida para interactuar con la API.
+3. **Interactividad con las Imágenes**: La aplicación permite hacer clic en áreas específicas de una imagen y ver más detalles sobre el personaje o área seleccionada.
+4. **Internacionalización**: La aplicación soporta múltiples idiomas, como español e inglés, utilizando i18next.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Componentes Clave
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Home.js**: Esta es la página principal donde se selecciona la imagen, se ingresa y valida la API Key.
+  
+- **Picture.js**: Muestra la imagen seleccionada y las áreas interactivas de la imagen.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **CharacterDetail.js**: Proporciona los detalles del personaje, obtenidos a través de la API, cuando se hace clic en una de las áreas de la imagen.
 
-## Learn More
+- **FloatName.js**: Muestra un nombre flotante cuando el usuario pasa el mouse sobre una área de la imagen.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Uso de la API
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+La aplicación interactúa con una API para obtener descripciones de personajes históricos. El flujo para interactuar con la API es el siguiente:
 
-### Code Splitting
+1. El usuario ingresa su **API Key** en la página de inicio.
+2. Si la API Key es válida, el usuario puede continuar.
+3. Al hacer clic en un personaje, se hace una consulta a la API para obtener la descripción del personaje relacionado con ese personaje.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Ejemplo de uso de la API:
+- **API Key**: La clave debe ser obtenida desde [Google AI Studio](https://aistudio.google.com/app/apikey).
+- **Endpoints**: Utilizamos el modelo de Google "gemini-1.5-flash" para obtener las descripciones.

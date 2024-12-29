@@ -1,40 +1,48 @@
+// Importamos la clase GoogleGenerativeAI desde el paquete para interactuar con la API de Google
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-// Crear y devolver la instancia del modelo de la API
+// Función para inicializar la API y obtener el modelo generativo
 export const initializeAPI = (apiKey) => {
-  const genAI = new GoogleGenerativeAI(apiKey);  // Usamos la API Key que pasamos
+  // Creamos una instancia de GoogleGenerativeAI con la clave API proporcionada
+  const genAI = new GoogleGenerativeAI(apiKey); 
+  // Obtenemos el modelo generativo 'gemini-1.5-flash' desde la instancia de la API
   const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
+  // Retornamos un objeto con la instancia de la API y el modelo generativo
   return { genAI, model };
 };
 
-// Función para validar la API Key
+// Función para validar si la clave API proporcionada es válida
 export const validateApiKey = async (apiKey) => {
-  const { model } = initializeAPI(apiKey); // Inicializamos la API con la API Key
+  // Inicializamos la API con la clave API y obtenemos el modelo generativo
+  const { model } = initializeAPI(apiKey); 
 
-  const simplePrompt = "¿Cuál es la fecha actual?"; // Prompt simple para validar la clave
+  // Definimos un 'prompt' simple para probar si la API responde correctamente
+  const simplePrompt = "¿Cuál es la fecha actual?"; 
 
   try {
+    // Intentamos generar contenido utilizando el modelo con el prompt simple
     const result = await model.generateContent(simplePrompt);
+    // Extraemos el texto de la respuesta generada
     const responseText = result.response.text();
 
-    // Si no hay respuesta, o la respuesta es vacía, la API Key es inválida
+    // Si no se recibe una respuesta válida, lanzamos un error
     if (!responseText) {
       throw new Error("No se recibió respuesta válida.");
     }
 
-    // Si recibimos una respuesta válida, consideramos que la API Key es válida
+    // Si la respuesta es válida, devolvemos true
     return true;
-  } catch (error) {
-    // Si hay un error (como la clave inválida), lanzamos un error
+  } catch (error) {    
+    // Si ocurre un error, lo mostramos en consola y retornamos false
     console.error('Error de validación de API Key:', error.message);
     return false;
   }
 };
 
-// Función para obtener la descripción del personaje con idioma específico
+// Función para obtener una descripción detallada de un personaje o tema
 export const fetchCharacterDescription = async (title, model, lang) => {
-  // Cambiar el prompt dependiendo del idioma
+  // Definimos los prompts en español e inglés para generar la descripción
   const prompts = {
     es: `Proporciona una breve descripción de ${title} de manera clara, detallada y narrativa. Incluye los siguientes aspectos:
     - Su fecha de nacimiento y muerte (si aplica). 
@@ -58,19 +66,24 @@ export const fetchCharacterDescription = async (title, model, lang) => {
     Please limit the response to no more than 200 words.`
   };
 
-  const prompt = prompts[lang]; // Selecciona el prompt según el idioma
+  // Seleccionamos el prompt correspondiente según el idioma especificado
+  const prompt = prompts[lang]; 
 
   try {
+    // Intentamos generar contenido utilizando el modelo con el prompt seleccionado
     const result = await model.generateContent(prompt);
+    // Extraemos el texto de la respuesta generada
     let responseText = result.response.text();
 
-    // Verificar si la respuesta es válida
+    // Si no se recibe una respuesta válida, lanzamos un error
     if (!responseText) {
       throw new Error("Respuesta vacía o inválida.");
     }
 
+    // Si la respuesta es válida, la retornamos
     return responseText;
   } catch (err) {
+    // Si ocurre un error, lanzamos una excepción con el mensaje de error
     throw new Error(`Error al obtener los datos: ${err.message}`);
   }
 };

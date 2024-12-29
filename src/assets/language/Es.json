@@ -3,15 +3,16 @@
     "title": "Selecciona una imagen",
     "apiKeyPlaceholder": "Pega tu API Key aquí",
     "validateButton": "Validar",
-    "visualizeButton": "Visualizar",
+    "visualizeButton": "Continuar",
     "apiKeyValid": "API Key válida",
     "apiKeyInvalid": "API Key inválida",
-    "getApiKeyLink": "Obtener Clave Api"
+    "getApiKeyLink": "Obtener Clave Api",
+    "apiKeyInfo": "Necesitas una clave Api para continuar"
   },
   "characterDetail": {
     "loading": "Cargando...",
     "error": "Ocurrió un error",
     "closeButton": "Cerrar",
-    "homeButton": "Home"
+    "homeButton": "Inicio"
   }
 }

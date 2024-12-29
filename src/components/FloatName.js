@@ -1,26 +1,28 @@
 import React from 'react';
 
+// Componente que muestra un texto flotante con el nombre, visible en una posición determinada
 const FloatName = ({ visible, title, x, y }) => {
-    if (!visible) return null; // Si no está visible, no renderizar nada
+    // Si 'visible' es falso, no renderiza nada
+    if (!visible) return null; 
 
     return (
         <div
             style={{
-                position: 'absolute',
-                top: `${y - 20}px`,  // Ajusta la distancia desde el área
-                left: `${x}px`,
-                backgroundColor: 'rgba(0, 0, 0, 0.7)',
-                color: 'white',
-                padding: '5px 10px',
-                borderRadius: '5px',
-                fontSize: '12px',
-                pointerEvents: 'none', // Para que no interfiera con el mouse
-                transform: 'translateX(-50%)', // Solo centrar horizontalmente
+                position: 'absolute', 
+                top: `${y - 20}px`, 
+                left: `${x}px`, 
+                backgroundColor: 'rgba(0, 0, 0, 0.7)', 
+                color: 'white', 
+                padding: '5px 10px', 
+                borderRadius: '5px', 
+                fontSize: '12px', 
+                pointerEvents: 'none', 
+                transform: 'translateX(-50%)', 
             }}
         >
-            {title}
+            {title} 
         </div>
     );
 };
 
-export default FloatName;
+export default FloatName;  // Exporta el componente

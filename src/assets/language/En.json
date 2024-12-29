@@ -3,10 +3,11 @@
     "title": "Select an image",
     "apiKeyPlaceholder": "Paste your API Key here",
     "validateButton": "Validate",
-    "visualizeButton": "Visualize",
+    "visualizeButton": "Continue",
     "apiKeyValid": "Valid API Key",
     "apiKeyInvalid": "Invalid API Key",
-    "getApiKeyLink": "Get Api Key"
+    "getApiKeyLink": "Get Api Key",
+    "apiKeyInfo": "You need an Api Key to continue"
   },
   "characterDetail": {
     "loading": "Loading...",

@@ -1,9 +1,8 @@
-/* Estilos generales para la página Home en Modo Oscuro */
 .home-page {
-  background: #121212;  /* Fondo oscuro */
-  color: #e0e0e0;  /* Texto claro */
+  background: #121212;  
+  color: #e0e0e0;  
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   max-width: 1200px;
   width: 100%;
   padding: 30px;
@@ -17,13 +16,12 @@
 .home-page h1 {
   text-align: center;
   font-size: 2.5rem;
-  color: #ffffff;  /* Título claro */
+  color: #ffffff;  
   margin-bottom: 30px;
   font-weight: 500;
   letter-spacing: 1px;
 }
 
-/* Estilos para los botones de cambio de idioma */
 .language-buttons {
   display: flex;
   gap: 10px;
@@ -49,15 +47,12 @@
   outline: none;
 }
 
-/* Resaltar el idioma seleccionado */
 .language-buttons button.selected {
-  background-color: #4a90e2;  /* Fondo azul para el idioma seleccionado */
-  color: white;  /* Texto blanco cuando está seleccionado */
-  border-color: #357abd; /* Borde más oscuro para el idioma seleccionado */
+  background-color: #4a90e2;  
+  color: white;  
+  border-color: #357abd; 
 }
 
-
-/* Estilos para la selección de imágenes */
 .home-page__imageSelection {
   display: flex;
   gap: 15px;
@@ -89,10 +84,9 @@
 }
 
 .home-page__selected {
-  border: 4px solid #4a90e2;  /* Resalta la imagen seleccionada con un borde azul */
+  border: 4px solid #4a90e2;  
 }
 
-/* Estilo del pseudo-elemento para oscurecer imagen seleccionada */
 .home-page__imageWrapper.selected::before {
   content: '';
   position: absolute;
@@ -100,7 +94,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);  /* Fondo oscuro semitransparente */
+  background: rgba(0, 0, 0, 0.3);  
   border-radius: 8px;
   z-index: 1; 
 }
@@ -109,7 +103,6 @@
   z-index: 0; 
 }
 
-/* Estilos para la sección de API Key */
 .home-page__apiKeySection {
   display: flex;
   align-items: center;
@@ -164,7 +157,6 @@
   transform: translateY(1px);
 }
 
-/* Estilos para mensajes de éxito y error */
 .home-page__success,
 .home-page__error {
   font-size: 14px;
@@ -181,7 +173,6 @@
   color: #e74c3c;
 }
 
-/* Estilos para el botón Visualizar */
 .home-page__button {
   padding: 12px 24px;
   background-color: #333;
@@ -209,7 +200,6 @@
   transform: translateY(1px);
 }
 
-/* Animaciones de desvanecimiento */
 @keyframes fadeIn {
   0% {
     opacity: 0;

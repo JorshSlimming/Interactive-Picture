@@ -1,27 +1,34 @@
-// src/i18n.js
+// Importamos i18next, el inicializador para React, y el detector de idioma para la configuración de i18n
 import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
-import translationES from './assets/language/Es.json'; // Traducción en Español
-import translationEN from './assets/language/En.json'; // Traducción en Inglés
+import { initReactI18next } from 'react-i18next'; // Necesario para integrar i18next con React
+import LanguageDetector from 'i18next-browser-languagedetector'; // Detecta el idioma del navegador del usuario
 
-// Inicializar i18next
+// Importamos los archivos de traducción en español e inglés
+import translationES from './assets/language/Es.json'; // Traducción en español
+import translationEN from './assets/language/En.json'; // Traducción en inglés
+
 i18n
-  .use(LanguageDetector) // Detectar el idioma automáticamente
-  .use(initReactI18next) // Integración con React
+  // Usamos el detector de idioma para detectar el idioma preferido del usuario
+  .use(LanguageDetector) 
+  // Inicializamos i18next con la configuración para React
+  .use(initReactI18next) 
   .init({
+    // Definimos las fuentes de traducción disponibles para cada idioma
     resources: {
       en: {
-        translation: translationEN,
+        translation: translationEN, // Traducciones en inglés
       },
       es: {
-        translation: translationES,
+        translation: translationES, // Traducciones en español
       },
     },
-    fallbackLng: 'es', // Idioma por defecto si no se detecta
+    // Idioma por defecto en caso de que no se detecte uno preferido
+    fallbackLng: 'es', 
+    // Configuración de interpolación, desactivamos el escape para evitar que se escape HTML
     interpolation: {
-      escapeValue: false, // React ya maneja la seguridad contra XSS
+      escapeValue: false, 
     },
   });
 
+// Exportamos la configuración de i18n para que sea accesible en toda la aplicación
 export default i18n;
