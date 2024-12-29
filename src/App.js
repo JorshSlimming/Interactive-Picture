@@ -1,13 +1,13 @@
 // Importamos las dependencias necesarias de React y React Router
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Para gestionar las rutas en la aplicación
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Usamos HashRouter en lugar de BrowserRouter
 import Picture from './pages/Picture.js'; // Importamos el componente Picture para la ruta '/Picture'
 import Home from './pages/Home.js'; // Importamos el componente Home para la ruta '/'
 import './I18Next.js'; // Importamos la configuración de i18next para la internacionalización (i18n)
 
 function App() {
   return (
-    // Usamos Router para envolver las rutas de la aplicación
+    // Usamos HashRouter para envolver las rutas de la aplicación
     <Router>
       <Routes>
         {/* Definimos las rutas dentro del componente Routes */}
