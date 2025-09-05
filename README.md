@@ -1,6 +1,10 @@
 # Proyecto: Aplicación de Imágenes Interactivas
 
-Este proyecto es una aplicación web interactiva que permite a los usuarios seleccionar imágenes, validar una API Key, obtener descripciones detalladas de personajes históricos, y visualizar la información sobre diferentes áreas de las imágenes seleccionadas.
+Este proyecto es una aplicación web interactiva que permite a los usuarios seleccionar imágenes (ej: Comedia divina con Dante), validar una API Key, obtener descripciones detalladas de personajes históricos, y visualizar la información sobre diferentes áreas de las imágenes seleccionadas.
+
+## Prueba el proyecto
+
+Puedes probar la aplicación directamente 👉 <a href="https://jorshslimming.github.io/Interactive-Picture/#/" target="_blank" rel="noopener noreferrer">aquí</a>.
 
 ## Tecnologías Usadas
 
@@ -67,5 +71,5 @@ La aplicación interactúa con una API para obtener descripciones de personajes 
 
 ### Ejemplo de uso de la API:
 - **API Key**: La clave debe ser obtenida desde [Google AI Studio](https://aistudio.google.com/app/apikey).
-- **Endpoints**: Utilizamos el modelo de Google "gemini-1.5-flash" para obtener las descripciones.
+- **Endpoints**: Utilizamos el modelo de Google "gemini-2.0-flash-lite" para obtener las descripciones.
 
