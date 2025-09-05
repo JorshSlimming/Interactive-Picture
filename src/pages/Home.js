@@ -12,6 +12,7 @@ const Home = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [apiKey, setApiKey] = useState('');
   const [isValid, setIsValid] = useState(null);  
+  const [showImageWarning, setShowImageWarning] = useState(false);
   const navigate = useNavigate(); // Navegación a otras rutas
 
   // Acceder a las funciones de traducción
@@ -30,6 +31,10 @@ const Home = () => {
 
   // Navegar a la página de visualización solo si la imagen está seleccionada y la API Key es válida
   const handleVisualize = () => {
+    if (!selectedImage) {
+      setShowImageWarning(true);
+      return;
+    }
     if (selectedImage && isValid) {
       navigate('/picture', { state: { image: selectedImage, apiKey } });  // Redirigir con los datos seleccionados
     }
@@ -59,16 +64,42 @@ const Home = () => {
         </button>
       </div>
 
+      {/* Mensaje de advertencia si no hay imagen seleccionada */}
+      {!selectedImage && (
+        <p style={{ color: 'red', textAlign: 'center', marginBottom: '10px' }}>
+          {t('home.selectImageWarning')}
+        </p>
+      )}
 
       <div className="home-page__imageSelection">
         {images.keys().map((image, index) => {
           const imageName = image.replace('./', '');
+          const isSelected = selectedImage === imageName;
           return (
             <div
               key={index}
-              className={`home-page__imageWrapper ${selectedImage === imageName ? 'selected' : ''}`}
+              className={`home-page__imageWrapper ${isSelected ? 'selected' : ''}`}
               onClick={() => handleImageSelect(imageName)}
+              style={{ position: 'relative' }}
             >
+              {isSelected && (
+                <span
+                  style={{
+                    position: 'absolute',
+                    top: '-24px',
+                    left: '50%',
+                    transform: 'translateX(-50%)',
+                    color: 'green',
+                    fontWeight: 'bold',
+                    background: 'white',
+                    padding: '2px 8px',
+                    borderRadius: '8px',
+                    fontSize: '14px'
+                  }}
+                >
+                  {t('home.selected')}
+                </span>
+              )}
               <img
                 src={images(image)}
                 alt={`Image ${index + 1}`}
@@ -107,8 +138,6 @@ const Home = () => {
           </a>
         </div>    
       </div>
-
-      
 
       <button 
         onClick={handleVisualize} 

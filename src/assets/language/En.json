@@ -7,7 +7,9 @@
     "apiKeyValid": "Valid API Key",
     "apiKeyInvalid": "Invalid API Key",
     "getApiKeyLink": "Get Api Key",
-    "apiKeyInfo": "You need an Api Key to continue"
+    "apiKeyInfo": "You need an Api Key to continue",
+    "selectImageWarning": "You must select an image",
+    "selected": "Selected"
   },
   "characterDetail": {
     "loading": "Loading...",

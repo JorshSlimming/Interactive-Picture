@@ -7,7 +7,9 @@
     "apiKeyValid": "API Key válida",
     "apiKeyInvalid": "API Key inválida",
     "getApiKeyLink": "Obtener Clave Api",
-    "apiKeyInfo": "Necesitas una clave Api para continuar"
+    "apiKeyInfo": "Necesitas una clave Api para continuar",
+    "selectImageWarning": "Debes seleccionar una imagen",
+    "selected": "Seleccionada"
   },
   "characterDetail": {
     "loading": "Cargando...",

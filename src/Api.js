@@ -5,8 +5,8 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 export const initializeAPI = (apiKey) => {
   // Creamos una instancia de GoogleGenerativeAI con la clave API proporcionada
   const genAI = new GoogleGenerativeAI(apiKey); 
-  // Obtenemos el modelo generativo 'gemini-1.5-flash' desde la instancia de la API
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+  // Obtenemos el modelo generativo 'gemini-2.0-flash-lite' desde la instancia de la API
+  const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' });
 
   // Retornamos un objeto con la instancia de la API y el modelo generativo
   return { genAI, model };
